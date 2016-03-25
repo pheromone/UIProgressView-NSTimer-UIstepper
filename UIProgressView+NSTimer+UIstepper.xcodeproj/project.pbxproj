@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A7DD37E21CA3D358000271A1 /* UIProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DD37E21CA3D358000271A1 /* UIProgressView+NSTimer+UIstepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIProgressView+NSTimer+UIstepper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DD37E51CA3D358000271A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7DD37E71CA3D358000271A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7DD37EA1CA3D358000271A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		A7DD37E31CA3D358000271A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7DD37E21CA3D358000271A1 /* UIProgressView.app */,
+				A7DD37E21CA3D358000271A1 /* UIProgressView+NSTimer+UIstepper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7DD37E11CA3D358000271A1 /* UIProgressView */ = {
+		A7DD37E11CA3D358000271A1 /* UIProgressView+NSTimer+UIstepper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7DD37F41CA3D358000271A1 /* Build configuration list for PBXNativeTarget "UIProgressView" */;
+			buildConfigurationList = A7DD37F41CA3D358000271A1 /* Build configuration list for PBXNativeTarget "UIProgressView+NSTimer+UIstepper" */;
 			buildPhases = (
 				A7DD37DE1CA3D358000271A1 /* Sources */,
 				A7DD37DF1CA3D358000271A1 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = UIProgressView;
+			name = "UIProgressView+NSTimer+UIstepper";
 			productName = UIProgressView;
-			productReference = A7DD37E21CA3D358000271A1 /* UIProgressView.app */;
+			productReference = A7DD37E21CA3D358000271A1 /* UIProgressView+NSTimer+UIstepper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7DD37DD1CA3D358000271A1 /* Build configuration list for PBXProject "UIProgressView" */;
+			buildConfigurationList = A7DD37DD1CA3D358000271A1 /* Build configuration list for PBXProject "UIProgressView+NSTimer+UIstepper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7DD37E11CA3D358000271A1 /* UIProgressView */,
+				A7DD37E11CA3D358000271A1 /* UIProgressView+NSTimer+UIstepper */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +252,7 @@
 				INFOPLIST_FILE = UIProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.9elephas.UIProgressView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UIProgressView+NSTimer+UIstepper";
 			};
 			name = Debug;
 		};
@@ -263,14 +263,14 @@
 				INFOPLIST_FILE = UIProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.9elephas.UIProgressView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UIProgressView+NSTimer+UIstepper";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7DD37DD1CA3D358000271A1 /* Build configuration list for PBXProject "UIProgressView" */ = {
+		A7DD37DD1CA3D358000271A1 /* Build configuration list for PBXProject "UIProgressView+NSTimer+UIstepper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7DD37F21CA3D358000271A1 /* Debug */,
@@ -279,13 +279,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7DD37F41CA3D358000271A1 /* Build configuration list for PBXNativeTarget "UIProgressView" */ = {
+		A7DD37F41CA3D358000271A1 /* Build configuration list for PBXNativeTarget "UIProgressView+NSTimer+UIstepper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7DD37F51CA3D358000271A1 /* Debug */,
 				A7DD37F61CA3D358000271A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
